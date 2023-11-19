@@ -1,0 +1,61 @@
+ body{
+    text-align: center;
+}
+header{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+}
+ul li{
+    display: inline;
+}
+nav ul li a{
+    padding: 10px;
+    color: bisque;
+    font-size: 20px;
+    text-decoration: none;
+}
+#Home img{
+    height: 250px;
+    width: 250px;
+    border-radius: 70%;
+}
+#Bio p{
+    margin-right: 200px;
+    margin-left: 200px;
+}
+#PortFolio p{
+    background-color: rgb(202, 202, 183);
+    padding: 20px;
+}
+
+#Education{
+    text-align:center;
+}
+#Skills{
+    background-color: rgb(190, 190, 179);
+}
+#Education{
+    background-color: rgb(190, 190, 179);
+
+    
+}
+li{
+    display: inline;
+    padding: 20px;
+}
+#Certifications{
+    background-color: rgb(190, 190, 179);
+
+}
+#Contact{
+    background-color: rgb(190, 190, 179);
+
+}
+footer{
+    background-color: rgb(80, 202, 202);
+}
+body{
+    background-color: rgb(190, 190, 179);
+
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        text-align: center;
+        background-color: rgb(190, 190, 179);
+        margin-right: 550px;
+        margin-left: 550px;
+    }
+     h2{
+        text-align:center;
+        color: black;
+     }
+     label{
+        display:flow-root;
+        color: brown;
+       
+     }
+     input[type=text],
+     input[type=tel],
+     input[type=color],
+     input[type=file],
+     input[type=password],
+     input[type=email],
+     input[type=url],
+     input[type=date],
+     input[type=datetime-local],
+     input[type=week],
+     input[type=month],
+     input[type=file],
+     input[type=search],
+     textarea,select{
+        border-radius: 8px;
+     }
+     input[type=submit]{
+background-color: rgb(195, 224, 210);
+cursor: pointer
+background-color: rgb(0, 231, 89);
+cursor: pointer;
+     }
+     input[type=submit]:hover{
+        background-color: rgb(238, 10, 10);
+     }
+
+     
+
+    </style>
+<body>
+    <h2>Registration Form For  Students</h2>
+    <form action="https://formspree.io/f/mdorvwpr" method="post">
+       <label> <b> Enter Fullname:-&nbsp;</b></label>
+        <input type="text" name="name" required>
+        <label> <b>Email Id:&nbsp;</b></label>
+        <input type="email" email="email" required>
+        <label><b>Enter Password:</b></label>
+        <input type="password" name="pass" required>
+        <label><b>Phone Number:</b></label>
+        <input type="tel" phoneNumber="phoneNumber" required>
+        <label><b>Date Of Birth:</b></label>
+        <input type="date" name="Birth">
+        <label><b>Gender:-</b></label>
+        <select>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select>
+        <label><b>Qualifications:</b></label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="grad">Graduated<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="grad">12 th Standard
+        
+         <label><b>Year of passed out:</label></b>
+         <select>
+            <option value="2025">2021-2025</option>
+            <option value="2024">2020-2024</option>
+            <option value="2023">2019-2023</option>
+            <option value="2022">2018-2022</option>
+        </select>
+        
+        <label><b>upload Resume Link:</b></label>
+        <input type="url" >
+        <label><b>Upload Your Certificate:</b></label>
+        <input type="file" >
+        <label><b>Languages You're Good At:</b></label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="fav language" value="PYTHON">PYTHON<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" name="fav language" value="C++">C++<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" name="fav language" value="JAVA">JAVA<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" name="fav language" value="C">C<br>
+        <label><b>---Your Technical Skills Level ---</b></label>
+        <input type="range" color="black" >
+        <label><b>Favorite color:</b></label>
+        <input type="color" name="fav color">
+        <label><b>Current Time</b></label>
+        <input type="time" >
+        <label><b>Choose Week & Date:<label>
+        <input type="week" name="week">
+        <label><b>Choose Month & Year:</b></label>
+        <input type="month">
+        <label>Search About Us:</label>
+        <input type="search" >
+        <label><b>Zipcode:-</b></label>
+        <input type="text" zipcode="zipcode" required>
+        <label><b>About Yourself:-</b></label>
+        <textarea name="about"></textarea>
+        <label>Upload Your Image:</label>
+        <input type="image" src="img.jpg"  >
+        <label><b>Enter Submission Date&Time:</b></label>
+        <input type="datetime-local" name="CD">
+        <label>Submit</label>
+        <input type="submit" value="register">      <input type="reset" value="Reset"
+    </form>
+</body>
+</html>
